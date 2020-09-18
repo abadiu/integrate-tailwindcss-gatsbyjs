@@ -11,3 +11,26 @@ Here's a list of resources used to write this guide and references for implement
 - The official Gatsby docs page on integrating `tailwindcss` at https://www.gatsbyjs.com/docs/tailwind-css.
 - This Gatsby starter that uses `tailwindcss` at https://github.com/oddstronaut/gatsby-starter-tailwind.
 - This collection of ready-made `tailwindcss` blocks at https://github.com/mertJF/tailblocks.
+- Using `PostCSS` as your preprocessor with `tailwindcss` https://tailwindcss.com/docs/using-with-preprocessors#using-post-css-as-your-preprocessor.
+
+## Implementation
+
+First of all let's install some stuff for our development dependencies:
+
+```sh 
+npm i --save-dev tailwindcss @tailwindcss/custom-forms autoprefixer cssnano postcss
+```
+
+Here we're adding tailiwind and 
+
+As well as adding another dependency:
+
+```sh
+npm i --save gatsby-plugin-postcss
+```
+
+### Setup 
+
+### Configuration
+
+#### Preprocessing with `postcss`
